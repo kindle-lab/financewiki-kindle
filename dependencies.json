@@ -1,0 +1,33 @@
+{
+  "fbink": "886f25f13368859ad8a899b88d04c26e19cda32e",
+  "stb": "dfa32facac4a16184dd66f8e482bf15a678f2bf3",
+  "libunibreak": "3ce4bfa3129ff3738046a44a6db533d2ce25af2b",
+  "zig": {
+    "version": "0.16.0",
+    "host": "aarch64-macos",
+    "target": "arm-linux-musleabihf",
+    "cpu": "cortex_a7",
+    "archive_sha256": "b23d70deaa879b5c2d486ed3316f7eaa53e84acf6fc9cc747de152450d401489"
+  },
+  "fonts_sha256": {
+    "NotoSerifCJKkr-SemiBold.ttf": "85ef5cd646615e367956c3513a4ad90f049a023758512856bd7e368d4c057675",
+    "NotoSansCJKkr-Medium.ttf": "82e249af8cba70a677eb9fc16991c743eabf10dbc71292e9c4a363e6e21c7fab",
+    "NotoSansCJKkr-Bold.otf": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a"
+  },
+  "font_sources_sha256": {
+    "NotoSerifCJKkr-VF.ttf": "4c6da64568466ab21d7dabe2338696aee6a5e0314d411e34b8410767e569e12d",
+    "NotoSansCJKkr-VF.ttf": "9e1d729e7e2b36f9ef439da102f8c134c10aabe46f1c843bf0aca5c043b86f76"
+  },
+  "font_instances": {
+    "tool": "tools/make_fonts.py",
+    "fonttools": "4.67.0",
+    "NotoSerifCJKkr-SemiBold.ttf": {
+      "source": "NotoSerifCJKkr-VF.ttf",
+      "wght": 600
+    },
+    "NotoSansCJKkr-Medium.ttf": {
+      "source": "NotoSansCJKkr-VF.ttf",
+      "wght": 500
+    }
+  }
+}

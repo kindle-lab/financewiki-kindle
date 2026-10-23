@@ -1,0 +1,21 @@
+{
+  "manifest_version": 1,
+  "id": "financewiki-kindle",
+  "name": "FinanceWiki Kindle",
+  "description": "Read-only FinanceWiki reader for jailbroken Kindle Basic 11th generation (2024).",
+  "packages": {
+    "fw": {
+      "name": "FinanceWiki Kindle",
+      "author": "FinanceWiki",
+      "description": "Read-only FinanceWiki 1.x reader with incremental private GitHub cache sync for Kindle Basic 11th generation (2024).",
+      "artifacts": [
+        {
+          "url": "packages/fw/artifacts/fw_1.1.0_kindlehf.kpkg",
+          "version": [1, 1, 0],
+          "dependencies": [],
+          "supported_platforms": ["kindlehf"]
+        }
+      ]
+    }
+  }
+}

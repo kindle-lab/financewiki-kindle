@@ -1,0 +1,8 @@
+build/
+dist/
+.cache/
+*.log
+__pycache__/
+*.pyc
+# 34 MB variable-font sources for tools/make_fonts.py (see dependencies.json)
+fonts/source/
